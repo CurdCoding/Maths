@@ -4,7 +4,7 @@ body{
     font-size: 24px;
 }
 .mainFrame{
-    margin-left: 30%;
+    margin-left: 2%;
     margin-top: 1%;
     padding-left: 1%;
     background-color: black;
@@ -52,6 +52,6 @@ button:hover{
     color: black;
 }
 .start{
-    margin-left: 45%;
+    margin-left: 2%;
     margin-top: 5%;
 }
