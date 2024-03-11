@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+       <button class="start" onclick="
+        questionNumber = 0;
+        correct = 0;
+        wrong = 0;
+        startTime = new Date();
+        mechanics()">Start</button>
+    <div class="mainFrame">
+        <div class="questionFrame">
+            <pre class="question"></pre>
+        </div>
+        <div class="optionFrame">
+            <button class="option" id="1" onclick="
+                if(optionOne == result){
+                    correct++;
+                }
+                else{
+                    wrong++;
+                }
+                mechanics();
+                "></button>
+            <button class="option" id="2" onclick="
+            if(optionTwo == result){
+                    correct++;
+                }
+                else{
+                    wrong++;
+                }
+                mechanics();
+            "></button>
+            <button class="option" id="3" onclick="
+              if(optionThree == result){
+                    correct++;
+                }
+                else{
+                    wrong++;
+                }
+                mechanics();
+            "></button>
+            <button class="option" id="4" onclick="
+             if(optionFour == result){
+                    correct++;
+                }
+                else{
+                    wrong++;
+                }
+                mechanics();
+            "></button>
+        </div>
+    </div>
+    <div class="sideFrame"></div>
+</body>
+<script src="script.js"></script>
+</html>
