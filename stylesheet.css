@@ -47,10 +47,6 @@ button{
     cursor: pointer;;
     transition: 0.15 background-color;
 }
-button:hover{
-    background-color: white;
-    color: black;
-}
 .start{
     margin-left: 2%;
     margin-top: 5%;
